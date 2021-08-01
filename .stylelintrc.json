@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-idiomatic-order"
+  ],
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["extends"]
+      }
+    ],
+    "block-no-empty": null,
+    "unit-allowed-list": ["em", "rem", "s"],
+    "order/order": ["custom-properties", "declarations"],
+    "order/properties-order": ["width", "height"]
+  }
+}
