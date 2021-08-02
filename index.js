@@ -20,3 +20,7 @@ function save() {
   saveEl.innerText += previousEntry;
   console.log(previousEntry);
 }
+
+function refresh() {
+  saveEl.innerText = "";
+}

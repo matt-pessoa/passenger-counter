@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .heading-text {
@@ -16,6 +16,15 @@ header {
   padding: 25px;
   border-bottom: 0.5px solid #59221d;
   text-align: center;
+}
+
+.heading-text:hover {
+  cursor: pointer;
+  color: #c1522a;
+}
+
+.heading-text:active {
+  color: #943f20;
 }
 
 .container {
@@ -127,7 +136,7 @@ img {
 #save-el {
   margin: 20px;
   color: #c7e1e9;
-  height: 210px;
+  height: 120px;
   text-align: center;
 }
 
