@@ -10,17 +10,17 @@ let countEl = document.getElementById("count-el");
 
 function increment() {
   count += 1;
-  countEl.innerText = count;
+  countEl.textContent = count; // innerText struggles to get non-readable human text
   // JS, please update its text to the value of the variable count
 }
 
 let saveEl = document.getElementById("save-el");
 function save() {
   let previousEntry = count + " - ";
-  saveEl.innerText += previousEntry;
+  saveEl.textContent += previousEntry;
   console.log(previousEntry);
 }
 
 function refresh() {
-  saveEl.innerText = "";
+  saveEl.textContent = "";
 }
