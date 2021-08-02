@@ -81,13 +81,14 @@ img {
 #increment-btn:hover {
   cursor: pointer;
   background-color: #ebad33;
+  color: rgb(112, 111, 111);
   transition: background-color 2s, color 1s;
   /* border: 5px solid #bb5025; */
 }
 
 #increment-btn:active {
   background-color: #f5ad1d;
-  color: #525252;
+  color: #c1522a;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
   transition: none;
