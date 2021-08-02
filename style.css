@@ -6,8 +6,15 @@ body {
 }
 
 header {
-  font-family: "Dancing Script", cursive;
   margin-bottom: 120px;
+}
+
+.heading-text {
+  color: #59221d;
+  font-family: "Dancing Script", cursive;
+  margin-top: 0;
+  padding: 25px;
+  border-bottom: 0.5px solid #59221d;
   text-align: center;
 }
 
@@ -15,6 +22,11 @@ header {
   width: 1500px;
   margin: auto;
   /* border: 10px solid red; */
+}
+
+.smaller-container {
+  margin: auto;
+  width: 900px;
 }
 
 .columns {
@@ -29,12 +41,12 @@ header {
   text-align: center;
 }
 
-h1 {
+body h1 {
   color: #59221d;
   margin-bottom: 0;
 }
 
-h2 {
+body h2 {
   margin-top: 0;
   font-size: 2em;
   color: #e26620;
