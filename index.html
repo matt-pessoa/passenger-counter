@@ -33,32 +33,42 @@
 
   <body>
     <div class="container">
-      <div class="columns">
-        <div class="col text">
-          <h1>People entered:</h1>
+      <section>
+        <div class="columns">
+          <div class="col text">
+            <h1>People <span style="display: block;">entered:</span></h1>
 
-          <div class="columns">
-            <div class="col-count">
-              <button id="save-btn" onclick="save()">
-                <span id="save-emoji">💾</span>
-              </button>
+              <div class="columns">
+                <div class="col-count">
+                  <button id="save-btn" onclick="save()">
+                    <span id="save-emoji">💾</span>
+                  </button>
+                </div>
+                <div class="col-count">
+                  <h2 id="count-el">0</h2>
+                </div>
+                <div class="col-count">
+                  <button id="increment-btn" onclick="increment()">+</button>
+                </div>
+              </div>
+          </div>
+            
+            <div class="col image">
+              <img
+                src="images/aeroporto.svg"
+                alt="passageiros na sala de espera de um aeroporto"
+              />
             </div>
-            <div class="col-count">
-              <h2 id="count-el">0</h2>
-            </div>
-            <div class="col-count">
-              <button id="increment-btn" onclick="increment()">+</button>
-            </div>
+
+        </div>      
+      </section>
+
+      <section>
+          <div class="col limit-bottom">
+            <h3 id="save-el"></h3>
           </div>
         </div>
-
-        <div class="col image">
-          <img
-            src="images/aeroporto.svg"
-            alt="passageiros na sala de espera de um aeroporto"
-          />
-        </div>
-      </div>
+      </section>
     </div>
 
     <script src="index.js"></script>

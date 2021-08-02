@@ -14,6 +14,9 @@ function increment() {
   // JS, please update its text to the value of the variable count
 }
 
+let saveEl = document.getElementById("save-el");
 function save() {
-  console.log(count);
+  let previousEntry = count + " - ";
+  saveEl.innerText += previousEntry;
+  console.log(previousEntry);
 }
