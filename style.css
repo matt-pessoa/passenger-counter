@@ -49,10 +49,14 @@ body h1 {
 body h2 {
   margin-top: 0;
   font-size: 2em;
-  color: #e26620;
+  color: #bb5025;
 }
 
 img {
   width: 800px;
   /* border: 10px solid blue; */
+}
+
+.col-count {
+  margin: 0 50px;
 }
