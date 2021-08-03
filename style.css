@@ -1,3 +1,6 @@
+/* todo: Testar design colunas (contador em cima da imagem que está em cima das previious entries"
+*/
+
 body {
   font-family: "Candal", sans-serif;
   /* font-weight: 300; */
@@ -6,7 +9,7 @@ body {
 }
 
 header {
-  margin-bottom: 120px;
+  margin-bottom: 150px;
 }
 
 .heading-text {
@@ -16,6 +19,15 @@ header {
   padding: 25px;
   border-bottom: 0.5px solid #59221d;
   text-align: center;
+}
+
+.heading-text:hover {
+  cursor: pointer;
+  color: #c1522a;
+}
+
+.heading-text:active {
+  color: #943f20;
 }
 
 .container {
@@ -46,13 +58,93 @@ body h1 {
   margin-bottom: 0;
 }
 
-body h2 {
+#count-el {
   margin-top: 0;
+  padding: 0 20px;
   font-size: 2em;
-  color: #e26620;
+  color: #c1522a;
+  margin-bottom: 10px;
 }
 
 img {
   width: 800px;
-  /* border: 10px solid blue; */
+  object-position: initial; /* border: 10px solid blue; */
+}
+
+.col-count {
+  margin: 0 35px;
+  /* border: 1px solid red; */
+}
+
+#increment-btn {
+  font-family: "Cantarell", sans-serif;
+  background-color: #d4a850;
+  margin-bottom: 0;
+  margin-top: 20px;
+  font-size: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  color: #999;
+  border: none;
+  box-shadow: 0 9px #999;
+}
+
+#increment-btn:hover {
+  cursor: pointer;
+  background-color: #ebad33;
+  color: rgb(112, 111, 111);
+  transition: background-color 2s, color 1s;
+  /* border: 5px solid #bb5025; */
+}
+
+#increment-btn:active {
+  background-color: #f5ad1d;
+  color: #c1522a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  transition: none;
+}
+
+#save-btn {
+  background-color: #86b0f3;
+  border-radius: 100%;
+  margin-bottom: 0;
+  margin-top: 20px;
+  font-size: 50px;
+  width: 100px;
+  height: 100px;
+  border: none;
+  box-shadow: 0 9px #999;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#save-btn:hover {
+  cursor: pointer;
+  background-color: #5b96f7;
+  color: rgba(0, 0, 0, 0.75);
+  transition: background-color 1s, color 1s;
+  /* border: 5px solid #bb5025; */
+}
+
+#save-btn:active {
+  background-color: #307dfa;
+  color: #f07f53;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: rgba(0, 0, 0, 0.8);
+  transition: none;
+}
+
+#save-el {
+  margin: 20px;
+  color: #c7e1e9;
+  height: 120px;
+  text-align: center;
+}
+
+.limit-bottom {
+  margin-bottom: 0px;
+  overflow: hidden; /* CSS permite overflow para evitar perder conteúdo
+  border: 1px solid red; */
 }
