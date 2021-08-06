@@ -18,7 +18,8 @@ let saveEl = document.getElementById("save-el");
 function save() {
   let previousEntry = count + " - ";
   saveEl.textContent += previousEntry;
-  console.log(previousEntry);
+  countEl.textContent = 0;
+  count = 0;
 }
 
 function refresh() {
