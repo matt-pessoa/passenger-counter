@@ -20,7 +20,13 @@ function save() {
   saveEl.textContent += previousEntry;
 }
 
-function refresh() {
+function resetCounter() {
   countEl.textContent = 0;
   count = 0;
+}
+
+function resetAll(){
+  countEl.textContent = 0;
+  count = 0;
+  saveEl.textContent = "";
 }

@@ -148,3 +148,29 @@ img {
   overflow: hidden; /* CSS permite overflow para evitar perder conteúdo
   border: 1px solid red; */
 }
+
+#reset-btn {
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(243, 208, 208, 0.8);
+  color: rgb(112, 139, 161);
+  border: none;
+  font-family: "Candal", sans-serif;
+  width: 150px;
+  height: 80px;
+  text-align: center;
+  box-shadow: 3px 7px #999;
+}
+
+#reset-btn:hover {
+  cursor: pointer;
+  background-color: #F2BBBB;
+  color: #4f86dd;
+  transition: background-color 1s, color 1s;
+}
+
+#reset-btn:active {
+  box-shadow: 2px 5px #999;
+  transform: translateY(4px);
+}
