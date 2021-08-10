@@ -21,15 +21,6 @@ header {
   text-align: center;
 }
 
-.heading-text:hover {
-  cursor: pointer;
-  color: #c1522a;
-}
-
-.heading-text:active {
-  color: #943f20;
-}
-
 .container {
   width: 1500px;
   margin: auto;
