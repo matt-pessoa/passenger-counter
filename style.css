@@ -140,7 +140,8 @@ img {
   border: 1px solid red; */
 }
 
-#reset-btn {
+#reset-counter-btn,
+#reset-all-btn {
   display: block;
   margin: 20px;
   padding: 20px;
@@ -154,14 +155,16 @@ img {
   box-shadow: 3px 7px #999;
 }
 
-#reset-btn:hover {
+#reset-counter-btn:hover,
+#reset-all-btn:hover  {
   cursor: pointer;
   background-color: #F2BBBB;
   color: #4f86dd;
   transition: background-color 1s, color 1s;
 }
 
-#reset-btn:active {
+#reset-counter-btn:active,
+#reset-all-btn:active {
   box-shadow: 2px 5px #999;
   transform: translateY(4px);
 }
